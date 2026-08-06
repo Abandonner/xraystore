@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "lastUpdated": "2026-08-05",
+  "version": 2,
+  "lastUpdated": "2026-08-06",
   "categories": [
     {
       "id": 101,
@@ -13,7 +13,9 @@
             { "id": "195249", "text": "Xray检测结果正常",          "component": "检测结果", "defaultExclusive": true },
             { "id": "199345", "text": "屏幕-IC样式或排线样式与样图不符-Xray", "component": "屏幕" },
             { "id": "199413", "text": "外屏-屏幕支架更换-Xray",     "component": "屏幕" },
-            { "id": "204723", "text": "屏幕-其他维修特征-Xray",     "component": "屏幕" }
+            { "id": "204723", "text": "屏幕-其他维修特征-Xray",     "component": "屏幕" },
+            { "id": "204722", "text": "电池-第三方电池-Xray",      "component": "电池" },
+            { "id": "195243", "text": "后壳-样式不匹配-Xray",      "component": "后壳" }
           ]
         },
         {
@@ -23,7 +25,9 @@
             { "id": "208633", "text": "检测结果正常-Xray",          "component": "检测结果", "defaultExclusive": true },
             { "id": "199411", "text": "屏幕-IC样式或排线样式与样图不符-Xray", "component": "屏幕" },
             { "id": "199410", "text": "外屏-屏幕支架更换-Xray",     "component": "屏幕" },
-            { "id": "203837", "text": "屏幕-其他维修特征-Xray",     "component": "屏幕" }
+            { "id": "203837", "text": "屏幕-其他维修特征-Xray",     "component": "屏幕" },
+            { "id": "203838", "text": "电池-第三方电池-Xray",      "component": "电池" },
+            { "id": "195234", "text": "后壳-样式不匹配-Xray",      "component": "后壳" }
           ]
         }
       ]
