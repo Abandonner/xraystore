@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "lastUpdated": "2026-08-06",
+  "version": 3,
+  "lastUpdated": "2026-08-07",
   "categories": [
     {
       "id": 101,
@@ -28,6 +28,42 @@
             { "id": "203837", "text": "屏幕-其他维修特征-Xray",     "component": "屏幕" },
             { "id": "203838", "text": "电池-第三方电池-Xray",      "component": "电池" },
             { "id": "195234", "text": "后壳-样式不匹配-Xray",      "component": "后壳" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1100000186,
+      "name": "耳机",
+      "modes": [
+        {
+          "id": 4,
+          "name": "有效质检-全检",
+          "options": [
+            { "id": "200554", "text": "仿冒-Xray",              "component": "其他" },
+            { "id": "199868", "text": "无",                     "component": "检测结果", "defaultExclusive": true }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "程度词或现象值一期",
+          "options": [
+            { "id": "199868", "text": "无",                     "component": "检测结果", "defaultExclusive": true },
+            { "id": "199873", "text": "仿冒-Xray",              "component": "其他" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1100000040,
+      "name": "手写笔",
+      "modes": [
+        {
+          "id": 5,
+          "name": "程度词或现象值一期",
+          "options": [
+            { "id": "20648",  "text": "无维修痕迹",               "component": "检测结果", "defaultExclusive": true },
+            { "id": "205112", "text": "内部维修痕迹",             "component": "其他" }
           ]
         }
       ]
