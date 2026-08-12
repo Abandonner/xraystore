@@ -1,33 +1,76 @@
 {
-  "version": 3,
-  "lastUpdated": "2026-08-07",
+  "version": 1,
+  "lastUpdated": "2025-08-01",
   "categories": [
     {
       "cateId": 101,
       "cateName": "手机",
       "modes": [
         {
-          "qcMode": 4,
-          "qcModeName": "有效质检-全检",
-          "options": [
-            { "id": "195249", "text": "Xray检测结果正常",          "component": "检测结果", "defaultExclusive": true },
-            { "id": "199345", "text": "屏幕-IC样式或排线样式与样图不符-Xray", "component": "屏幕" },
-            { "id": "199413", "text": "外屏-屏幕支架更换-Xray",     "component": "屏幕" },
-            { "id": "204723", "text": "屏幕-其他维修特征-Xray",     "component": "屏幕" },
-            { "id": "204722", "text": "电池-第三方电池-Xray",      "component": "电池" },
-            { "id": "195243", "text": "后壳-样式不匹配-Xray",      "component": "后壳" }
-          ]
-        },
-        {
           "qcMode": 1,
           "qcModeName": "现象值二期",
           "options": [
-            { "id": "208633", "text": "检测结果正常-Xray",          "component": "检测结果", "defaultExclusive": true },
+            { "id": "195231", "text": "前摄像头-有焊接/锡焊异常-Xray", "component": "摄像头" },
+            { "id": "195232", "text": "后摄像头-有焊接/锡焊异常-Xray", "component": "摄像头" },
+            { "id": "195233", "text": "后壳-磁铁缺失-Xray", "component": "后壳" },
+            { "id": "195234", "text": "后壳-样式不匹配-Xray", "component": "后壳" },
+            { "id": "195235", "text": "电池维修-Xray", "component": "电池" },
             { "id": "199411", "text": "屏幕-IC样式或排线样式与样图不符-Xray", "component": "屏幕" },
-            { "id": "199410", "text": "外屏-屏幕支架更换-Xray",     "component": "屏幕" },
-            { "id": "203837", "text": "屏幕-其他维修特征-Xray",     "component": "屏幕" },
-            { "id": "203838", "text": "电池-第三方电池-Xray",      "component": "电池" },
-            { "id": "195234", "text": "后壳-样式不匹配-Xray",      "component": "后壳" }
+            { "id": "199410", "text": "外屏-屏幕支架更换-Xray", "component": "屏幕" },
+            { "id": "196795", "text": "主板或螺母柱断裂/缺失-Xray", "component": "主板" },
+            { "id": "196794", "text": "主板-焊接飞线/屏蔽罩断裂缺失-Xray", "component": "主板" },
+            { "id": "196798", "text": "部分零件维修更换-Xray", "component": "零件" },
+            { "id": "196799", "text": "部分零件缺失-Xray", "component": "零件" },
+            { "id": "196800", "text": "小内配缺失-Xray", "component": "零件" },
+            { "id": "203837", "text": "屏幕-其他维修特征-Xray", "component": "屏幕" },
+            { "id": "203836", "text": "后壳-其他维修特征-Xray", "component": "后壳" },
+            { "id": "203838", "text": "电池-第三方电池-Xray", "component": "电池" },
+            { "id": "208634", "text": "检测结果拆机-Xray", "component": "检测结果", "defaultExclusive": true },
+            { "id": "208633", "text": "检测结果正常-Xray", "component": "检测结果", "defaultExclusive": true }
+          ]
+        },
+        {
+          "qcMode": 3,
+          "qcModeName": "有效质检-部分检测",
+          "options": [
+            { "id": "195242", "text": "前摄像头-有焊接/锡焊异常-Xray", "component": "摄像头" },
+            { "id": "195241", "text": "后摄像头-有焊接/锡焊异常-Xray", "component": "摄像头" },
+            { "id": "195244", "text": "后壳-磁铁缺失-Xray", "component": "后壳" },
+            { "id": "195243", "text": "后壳-样式不匹配-Xray", "component": "后壳" },
+            { "id": "195245", "text": "电池-外挂小板/有飞线-Xray", "component": "电池" },
+            { "id": "199345", "text": "屏幕-IC样式或排线样式与样图不符-Xray", "component": "屏幕" },
+            { "id": "199413", "text": "外屏-屏幕支架更换-Xray", "component": "屏幕" },
+            { "id": "200721", "text": "主板-屏蔽罩、螺母柱、PCB板断裂/缺损-Xray", "component": "主板" },
+            { "id": "200722", "text": "主板-焊接异常/有飞线-Xray", "component": "主板" },
+            { "id": "200720", "text": "其他零部件维修更换-Xray", "component": "零件" },
+            { "id": "200719", "text": "其他零部件缺失-Xray", "component": "零件" },
+            { "id": "200718", "text": "安装辅件缺失(排线盖板/螺丝/弹片等）-Xray", "component": "零件" },
+            { "id": "204723", "text": "屏幕-其他维修特征-Xray", "component": "屏幕" },
+            { "id": "204724", "text": "后壳-其他维修特征-Xray", "component": "后壳" },
+            { "id": "204722", "text": "电池-第三方电池-Xray", "component": "电池" },
+            { "id": "195249", "text": "Xray检测结果正常", "component": "检测结果", "defaultExclusive": true }
+          ]
+        },
+        {
+          "qcMode": 4,
+          "qcModeName": "有效质检-全检",
+          "options": [
+            { "id": "195242", "text": "前摄像头-有焊接/锡焊异常-Xray", "component": "摄像头" },
+            { "id": "195241", "text": "后摄像头-有焊接/锡焊异常-Xray", "component": "摄像头" },
+            { "id": "195244", "text": "后壳-磁铁缺失-Xray", "component": "后壳" },
+            { "id": "195243", "text": "后壳-样式不匹配-Xray", "component": "后壳" },
+            { "id": "195245", "text": "电池-外挂小板/有飞线-Xray", "component": "电池" },
+            { "id": "199345", "text": "屏幕-IC样式或排线样式与样图不符-Xray", "component": "屏幕" },
+            { "id": "199413", "text": "外屏-屏幕支架更换-Xray", "component": "屏幕" },
+            { "id": "200721", "text": "主板-屏蔽罩、螺母柱、PCB板断裂/缺损-Xray", "component": "主板" },
+            { "id": "200722", "text": "主板-焊接异常/有飞线-Xray", "component": "主板" },
+            { "id": "200720", "text": "其他零部件维修更换-Xray", "component": "零件" },
+            { "id": "200719", "text": "其他零部件缺失-Xray", "component": "零件" },
+            { "id": "200718", "text": "安装辅件缺失(排线盖板/螺丝/弹片等）-Xray", "component": "零件" },
+            { "id": "204723", "text": "屏幕-其他维修特征-Xray", "component": "屏幕" },
+            { "id": "204724", "text": "后壳-其他维修特征-Xray", "component": "后壳" },
+            { "id": "204722", "text": "电池-第三方电池-Xray", "component": "电池" },
+            { "id": "195249", "text": "Xray检测结果正常", "component": "检测结果", "defaultExclusive": true }
           ]
         }
       ]
@@ -40,16 +83,26 @@
           "qcMode": 4,
           "qcModeName": "有效质检-全检",
           "options": [
-            { "id": "200554", "text": "仿冒-Xray",              "component": "其他" },
-            { "id": "199868", "text": "无",                     "component": "检测结果", "defaultExclusive": true }
+            { "id": "200558", "text": "异物/杂质-Xray", "component": "其他" },
+            { "id": "200555", "text": "电池维修更换-Xray", "component": "电池" },
+            { "id": "200556", "text": "零件缺失-Xray", "component": "零件" },
+            { "id": "200557", "text": "零件维修更换-Xray", "component": "零件" },
+            { "id": "200554", "text": "仿冒-Xray", "component": "其他" },
+            { "id": "204919", "text": "图片无法审核-Xray", "component": "检测结果", "defaultExclusive": true },
+            { "id": "199868", "text": "无", "component": "检测结果", "defaultExclusive": true }
           ]
         },
         {
           "qcMode": 5,
           "qcModeName": "程度词或现象值一期",
           "options": [
-            { "id": "199868", "text": "无",                     "component": "检测结果", "defaultExclusive": true },
-            { "id": "199873", "text": "仿冒-Xray",              "component": "其他" }
+            { "id": "199869", "text": "异物/杂质-Xray", "component": "其他" },
+            { "id": "199870", "text": "电池维修更换-Xray", "component": "电池" },
+            { "id": "199871", "text": "零件缺失-Xray", "component": "零件" },
+            { "id": "199872", "text": "零件维修更换-Xray", "component": "零件" },
+            { "id": "199873", "text": "仿冒-Xray", "component": "其他" },
+            { "id": "204919", "text": "图片无法审核-Xray", "component": "检测结果", "defaultExclusive": true },
+            { "id": "199868", "text": "无", "component": "检测结果", "defaultExclusive": true }
           ]
         }
       ]
@@ -59,11 +112,19 @@
       "cateName": "手写笔",
       "modes": [
         {
+          "qcMode": 4,
+          "qcModeName": "有效质检-全检",
+          "options": [
+            { "id": "203568", "text": "无以上问题", "component": "检测结果", "defaultExclusive": true },
+            { "id": "205088", "text": "内部维修痕迹-Xray", "component": "其他" }
+          ]
+        },
+        {
           "qcMode": 5,
           "qcModeName": "程度词或现象值一期",
           "options": [
-            { "id": "20648",  "text": "无维修痕迹",               "component": "检测结果", "defaultExclusive": true },
-            { "id": "205112", "text": "内部维修痕迹",             "component": "其他" }
+            { "id": "20648", "text": "无维修痕迹", "component": "检测结果", "defaultExclusive": true },
+            { "id": "205112", "text": "内部维修痕迹", "component": "其他" }
           ]
         }
       ]
