@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-08-01",
+  "watchdog": {
+    "timeoutMs": 600,
+    "guardIntervalMs": 2000
+  },
+  "categories": [
+    {
+      "cateId": 101,
+      "cateName": "手机",
+      "exclusiveItems": ["195249", "208633", "208634"],
+      "modes": [
+        {
+          "qcMode": 4,
+          "qcModeName": "有效质检-全检",
+          "exclusionGroups": [
+            { "options": ["199345", "199413", "204723"], "component": "屏幕" },
+            { "options": ["204722", "195245"], "component": "电池" },
+            { "options": ["195244", "195243"], "component": "后壳磁铁" }
+          ]
+        },
+        {
+          "qcMode": 3,
+          "qcModeName": "有效质检-部分检测",
+          "exclusionGroups": [
+            { "options": ["199345", "199413", "204723"], "component": "屏幕" },
+            { "options": ["204722", "195245"], "component": "电池" },
+            { "options": ["195244", "195243"], "component": "后壳磁铁" }
+          ]
+        },
+        {
+          "qcMode": 1,
+          "qcModeName": "现象值二期",
+          "exclusionGroups": [
+            { "options": ["199411", "199410", "203837"], "component": "屏幕" },
+            { "options": ["203838", "195235"], "component": "电池" },
+            { "options": ["195233", "195234"], "component": "后壳磁铁" }
+          ],
+          "reminders": [
+            {
+              "id": "teardown-pro",
+              "matchField": "modelName",
+              "fallbackDisableOptions": ["208634"],
+              "conditions": [
+                { "matchValue": "iPhone 14 Pro", "message": "机型：{modelName}，应选拆机选项", "highlightOption": "208634", "conflictDisables": ["208634"] },
+                { "matchValue": "iPhone 15 Pro", "message": "机型：{modelName}，应选拆机选项", "highlightOption": "208634", "conflictDisables": ["208634"] },
+                { "matchValue": "iPhone 16 Pro", "message": "机型：{modelName}，应选拆机选项", "highlightOption": "208634", "conflictDisables": ["208634"] },
+                { "matchValue": "iPhone 14 Pro Max", "message": "机型：{modelName}，应选拆机选项", "highlightOption": "208634", "conflictDisables": ["208634"] },
+                { "matchValue": "iPhone 15 Pro Max", "message": "机型：{modelName}，应选拆机选项", "highlightOption": "208634", "conflictDisables": ["208634"] },
+                { "matchValue": "iPhone 16 Pro Max", "message": "机型：{modelName}，应选拆机选项", "highlightOption": "208634", "conflictDisables": ["208634"] }
+              ]
+            }
+          ]
+        }
+      ],
+      "disables": [
+        {
+          "id": "other-repair",
+          "matchField": "modelName",
+          "targetOptions": ["204723", "203837", "204724", "203836"],
+          "conditions": [
+            { "matchValue": "华为 Mate 60 Pro", "allowOptions": ["204723", "203837", "204724", "203836"] },
+            { "matchValue": "华为 Mate 60", "allowOptions": ["204723", "203837", "204724", "203836"] },
+            { "matchValue": "华为 Mate 60 Pro+", "allowOptions": ["204723", "203837", "204724", "203836"] },
+            { "matchValue": "华为 Mate 60 RS 非凡大师", "allowOptions": ["204724", "203836"] },
+            { "matchValue": "华为 Pura 70 Pro", "allowOptions": ["204724", "203836"] },
+            { "matchValue": "华为 Pura 70 Pro+", "allowOptions": ["204724", "203836"] },
+            { "matchValue": "华为 Pura 70 Ultra", "allowOptions": ["204724", "203836"] },
+            { "matchValue": "华为 Mate 40 Pro (5G)", "allowOptions": ["204723", "203837", "204724", "203836"] },
+            { "matchValue": "华为 Mate 40 Pro (4G)", "allowOptions": ["204724", "203836"] },
+            { "matchValue": "华为 Mate 50", "allowOptions": ["204724", "203836"] }
+          ]
+        }
+      ],
+      "suggestions": [
+        {
+          "id": "hw-repair",
+          "matchField": "classifyConfId",
+          "mappings": [
+            { "matchValue": "40", "suggestOptionId": ["204724", "203836"], "label": "后壳-其他维修特征" },
+            { "matchValue": "41", "suggestOptionId": ["204724", "203836"], "label": "后壳-其他维修特征" },
+            { "matchValue": "77", "suggestOptionId": ["204724", "203836"], "label": "后壳-其他维修特征" },
+            { "matchValue": "78", "suggestOptionId": ["204724", "203836"], "label": "后壳-其他维修特征" },
+            { "matchValue": "150", "suggestOptionId": ["204724", "203836"], "label": "后壳-其他维修特征" },
+            { "matchValue": "902", "suggestOptionId": ["204724", "203836"], "label": "后壳-其他维修特征" },
+            { "matchValue": "261", "suggestOptionId": ["204723", "203837"], "label": "屏幕-其他维修特征" },
+            { "matchValue": "263", "suggestOptionId": ["204723", "203837"], "label": "屏幕-其他维修特征" },
+            { "matchValue": "264", "suggestOptionId": ["204723", "203837"], "label": "屏幕-其他维修特征" },
+            { "matchValue": "295", "suggestOptionId": ["204723", "203837"], "label": "屏幕-其他维修特征" },
+            { "matchValue": "296", "suggestOptionId": ["204723", "203837"], "label": "屏幕-其他维修特征" },
+            { "matchValue": "297", "suggestOptionId": ["204723", "203837"], "label": "屏幕-其他维修特征" },
+            { "matchValue": "665", "suggestOptionId": ["204723", "203837"], "label": "屏幕-其他维修特征" },
+            { "matchValue": "692", "suggestOptionId": ["204723", "203837"], "label": "屏幕-其他维修特征" },
+            { "matchValue": "1575", "suggestOptionId": ["204723", "203837"], "label": "屏幕-其他维修特征" }
+          ]
+        }
+      ]
+    },
+    {
+      "cateId": 1100000186,
+      "cateName": "耳机",
+      "exclusiveItems": ["199868"],
+      "modes": []
+    },
+    {
+      "cateId": 1100000040,
+      "cateName": "手写笔",
+      "exclusiveItems": ["203568", "20648"],
+      "modes": []
+    }
+  ]
+}
