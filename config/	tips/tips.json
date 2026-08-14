@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-08-14",
+  "parts": [
+    {
+      "partId": "backCover",
+      "partName": "后壳",
+      "color": "#7F77DD",
+      "order": 7,
+      "cateIds": ["101"],
+      "tips": [
+        {
+          "id": "tip_backcover_1",
+          "text": "中框金属垫片缺失 / 破损",
+          "modelIds": ["125986", "126364", "89277", "31940", "46515", "240859", "240860", "241057"]
+        },
+        {
+          "id": "tip_backcover_2",
+          "text": "中框按键顶针样式不符",
+          "modelIds": ["31940", "89277", "240859"]
+        }
+      ]
+    },
+    {
+      "partId": "screen",
+      "partName": "屏幕",
+      "color": "#639922",
+      "order": 6,
+      "cateIds": ["101"],
+      "tips": [
+        {
+          "id": "tip_screen_1",
+          "text": "屏幕左下支架变为梯形",
+          "modelIds": ["58384"],
+          "samples": [
+            { "qcCode": "1008899473", "modelId": "58384", "label": "铁架缺失" }
+          ]
+        },
+        {
+          "id": "tip_screen_2",
+          "text": "固定前摄铁架缺失 / 部分缺失",
+          "modelIds": ["126364"],
+          "samples": [
+            { "qcCode": "1217845821", "modelId": "126364", "label": "部分缺失" }
+          ]
+        }
+      ]
+    },
+    {
+      "partId": "component",
+      "partName": "零部件",
+      "color": "#fde4bb",
+      "tips": [
+        {
+          "id": "tip_component_1",
+          "text": "距离传感器单纯焊点加深不判",
+          "modelIds": ["95638", "95639"]
+        }
+      ]
+    },
+    {
+      "partId": "camera",
+      "partName": "摄像头",
+      "color": "#378ADD",
+      "cateIds": ["101"],
+      "tips": [
+        {
+          "id": "tip_camera_1",
+          "text": "后摄周边铁架内成像透明",
+          "priority": true,
+          "modelIds": ["1011386", "1011385", "1011381", "910689", "517705", "381412", "381411", "381410", "129390", "129389", "129388", "129387", "95667", "95639", "95638", "95637"]
+        },
+        {
+          "id": "tip_camera_2",
+          "text": "后摄镜头内部成碎裂状",
+          "brandIds": ["10530"],
+          "samples": [
+            { "qcCode": "1217604799", "modelId": "129389", "label": "明显碎裂" }
+          ]
+        }
+      ]
+    },
+    {
+      "partId": "battery",
+      "partName": "电池",
+      "color": "#BA7517",
+      "tips": [
+        { "id": "tip_battery_1", "text": "占位", "modelIds": ["9999999"] }
+      ]
+    },
+    {
+      "partId": "mainboard",
+      "partName": "主板",
+      "color": "#E24B4A",
+      "tips": [
+        { "id": "tip_mainboard_1", "text": "占位", "modelIds": ["9999999"] }
+      ]
+    },
+    {
+      "partId": "faceid",
+      "partName": "面容",
+      "color": "#71d2b8",
+      "order": 4,
+      "cateIds": ["101"],
+      "brandIds": ["10530"],
+      "tips": [
+        {
+          "id": "tip_faceid_1",
+          "text": "感光组件固定铁架缺失",
+          "modelIds": ["2191", "2192", "2193", "2187", "2188", "2189", "2190"],
+          "samples": [
+            { "qcCode": "1218052789", "modelId": "2190", "label": "铁架缺失" },
+            { "qcCode": "1216679071", "modelId": "2188", "label": "铁架缺失" }
+          ]
+        },
+        {
+          "id": "tip_faceid_2",
+          "text": "面容组件小铁片内部断裂",
+          "modelIds": ["58384", "58386", "58387", "95637", "95638", "95639", "129387", "381410", "1011385", "1011386", "31458"],
+          "samples": [
+            { "qcCode": "1217719528", "modelId": "95638", "label": "侧面断裂" },
+            { "qcCode": "1216439551", "modelId": "95639", "label": "侧面断裂" },
+            { "qcCode": "1215984859", "modelId": "31458", "label": "顶部断裂" }
+          ]
+        },
+        {
+          "id": "tip_faceid_3",
+          "text": "面容组件左下右下两侧细微断裂豁免",
+          "modelIds": ["129388", "129389", "381411", "381412"],
+          "samples": [
+            { "qcCode": "1215909629", "modelId": "129389", "label": "轻微豁免" }
+          ]
+        }
+      ]
+    },
+    {
+      "partId": "accessory",
+      "partName": "辅件",
+      "color": "#D85A30",
+      "order": 6,
+      "cateIds": ["101"],
+      "brandIds": ["10530"],
+      "tips": [
+        {
+          "id": "tip_accessory_1",
+          "text": "螺丝缺失参考",
+          "modelIds": ["9999999"],
+          "samples": [
+            { "qcCode": "填质检码", "label": "螺丝缺", "modelId": "99999" }
+          ]
+        }
+      ]
+    }
+  ]
+}
