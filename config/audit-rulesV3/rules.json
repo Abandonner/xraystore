@@ -1,0 +1,132 @@
+{
+  "version": 2,
+  "lastUpdated": "2026-08-19",
+  "rules": [
+    {
+      "id": "foreign-apple-mainboard-solder",
+      "label": "外版苹果·主板焊锡提示",
+      "conditions": { "cateIds": ["101"], "brandIds": ["10530"], "purchaseChannel": "foreign" },
+      "targetOptions": ["196794", "200722"],
+      "action": "lowPriority"
+    },
+    {
+      "id": "backcover-other-repair",
+      "label": "后壳-其他维修特征建议",
+      "conditions": {
+        "cateIds": ["101"],
+        "brandIds": ["10532"],
+        "classifyConfIds": ["40", "41", "77", "78", "150", "902"]
+      },
+      "targetOptions": ["204724", "203836"],
+      "action": "suggest"
+    },
+    {
+      "id": "screen-other-repair",
+      "label": "屏幕-其他维修特征建议",
+      "conditions": {
+        "cateIds": ["101"],
+        "brandIds": ["10532"],
+        "classifyConfIds": ["261", "263", "264", "295", "296", "297", "665", "692", "1575"]
+      },
+      "targetOptions": ["204723", "203837"],
+      "action": "suggest"
+    },
+    {
+      "id": "huawei-screen-repair-disable",
+      "label": "禁用屏幕类其他维修（仅 4 款华为机型放行）",
+      "conditions": {
+        "cateIds": ["101"],
+        "excludeModelIds": ["125986", "126364", "127849", "31940"]
+      },
+      "targetOptions": ["204723", "203837"],
+      "action": "disable"
+    },
+    {
+      "id": "huawei-backcover-repair-disable",
+      "label": "禁用后壳类其他维修（仅 10 款华为机型放行）",
+      "conditions": {
+        "cateIds": ["101"],
+        "excludeModelIds": [
+          "125986", "126364", "127849", "31940",
+          "144349", "240859", "240860", "241057", "46515", "89277"
+        ]
+      },
+      "targetOptions": ["204724", "203836"],
+      "action": "disable"
+    },
+    {
+      "id": "android-battery-disable",
+      "label": "安卓电池禁用",
+      "conditions": {
+        "cateIds": ["101"],
+        "excludeBrandIds": ["10530"],
+        "hasTips": true
+      },
+      "targetOptions": ["195235", "195245", "203838", "204722"],
+      "action": "disable"
+    },
+    {
+      "id": "android-front-camera-disable",
+      "label": "安卓禁用前摄维修",
+      "conditions": { "cateIds": ["101"], "excludeBrandIds": ["10530"] },
+      "targetOptions": ["195242", "195231"],
+      "action": "disable"
+    },
+    {
+      "id": "android-rear-camera-disable",
+      "label": "安卓禁用后摄维修",
+      "conditions": { "cateIds": ["101"], "excludeBrandIds": ["10530"] },
+      "targetOptions": ["195232", "195241"],
+      "action": "disable"
+    },
+    {
+      "id": "android-screen-bracket-disable",
+      "label": "安卓禁用屏幕支架",
+      "conditions": { "cateIds": ["101"], "excludeBrandIds": ["10530"] },
+      "targetOptions": ["199410", "199413"],
+      "action": "disable"
+    },
+    {
+      "id": "android-magnet-repair-disable",
+      "label": "安卓禁用磁铁维修",
+      "conditions": { "cateIds": ["101"], "excludeBrandIds": ["10530"] },
+      "targetOptions": ["195244", "195233"],
+      "action": "disable"
+    },
+    {
+      "id": "teardown-pro-suggest",
+      "label": "拆机机型建议",
+      "conditions": {
+        "cateIds": ["101"],
+        "brandIds": ["10530"],
+        "modelIds": ["95638", "129388", "381411", "95639", "129389", "381412"]
+      },
+      "targetOptions": ["208634"],
+      "action": "suggest",
+      "conflictDisables": "self"
+    },
+    {
+      "id": "teardown-others-disable",
+      "label": "非拆机机型禁用拆机",
+      "conditions": {
+        "cateIds": ["101"],
+        "excludeModelIds": ["95638", "129388", "381411", "95639", "129389", "381412"]
+      },
+      "targetOptions": ["208634"],
+      "action": "disable"
+    }
+  ],
+  "exclusionGroups": [
+    { "id": "screen-exclusive-full", "options": ["199345", "199413", "204723"], "component": "屏幕", "conditions": { "cateIds": ["101"], "qcModes": [4, 3] } },
+    { "id": "battery-exclusive-full", "options": ["204722", "195245"], "component": "电池", "conditions": { "cateIds": ["101"], "qcModes": [4, 3] } },
+    { "id": "magnet-exclusive-full", "options": ["195244", "195243"], "component": "后壳磁铁", "conditions": { "cateIds": ["101"], "qcModes": [4, 3] } },
+    { "id": "screen-exclusive-phase2", "options": ["199411", "199410", "203837"], "component": "屏幕", "conditions": { "cateIds": ["101"], "qcModes": [1] } },
+    { "id": "battery-exclusive-phase2", "options": ["203838", "195235"], "component": "电池", "conditions": { "cateIds": ["101"], "qcModes": [1] } },
+    { "id": "magnet-exclusive-phase2", "options": ["195233", "195234"], "component": "后壳磁铁", "conditions": { "cateIds": ["101"], "qcModes": [1] } }
+  ],
+  "exclusiveItems": [
+    { "id": "phone-exclusive", "options": ["195249", "208633", "208634"], "conditions": { "cateIds": ["101"] } },
+    { "id": "earphone-exclusive", "options": ["199868"], "conditions": { "cateIds": ["1100000186"] } },
+    { "id": "stylus-exclusive", "options": ["203568", "20648"], "conditions": { "cateIds": ["1100000040"] } }
+  ]
+}
