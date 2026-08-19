@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "lastUpdated": "2026-08-19",
   "rules": [
     {
@@ -18,6 +18,17 @@
         "classifyConfIds": ["40", "41", "77", "78", "150", "902"]
       },
       "targetOptions": ["204724", "203836"],
+      "action": "suggest"
+    },
+    {
+      "id": "vivo-battery-repair",
+      "label": "vivo第三方电池建议",
+      "conditions": {
+        "cateIds": ["101"],
+        "brandIds": ["10534"],
+        "classifyConfIds": ["2937", "9704", "2322", "8229"]
+      },
+      "targetOptions": ["203838", "204722"],
       "action": "suggest"
     },
     {
@@ -97,9 +108,9 @@
       "id": "teardown-pro-suggest",
       "label": "拆机机型建议",
       "conditions": {
+        "qcModes": [1],
         "cateIds": ["101"],
         "brandIds": ["10530"],
-        "qcModes": [1],
         "modelIds": ["95638", "129388", "381411", "95639", "129389", "381412"]
       },
       "targetOptions": ["208634"],
