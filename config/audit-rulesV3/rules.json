@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "lastUpdated": "2026-08-19",
   "rules": [
     {
@@ -99,6 +99,7 @@
       "conditions": {
         "cateIds": ["101"],
         "brandIds": ["10530"],
+        "qcModes": [1],
         "modelIds": ["95638", "129388", "381411", "95639", "129389", "381412"]
       },
       "targetOptions": ["208634"],
