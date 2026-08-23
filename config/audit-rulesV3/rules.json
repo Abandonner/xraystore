@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "lastUpdated": "2026-08-19",
+  "version": 5,
+  "lastUpdated": "2026-08-23",
   "rules": [
     {
       "id": "foreign-apple-mainboard-solder",
