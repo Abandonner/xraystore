@@ -1,6 +1,6 @@
 {
-  "version": 6,
-  "lastUpdated": "2026-08-25",
+  "version": 7,
+  "lastUpdated": "2026-08-27",
   "rules": [
     {
       "id": "foreign-apple-mainboard-solder",
@@ -103,6 +103,17 @@
       "label": "安卓禁用磁铁维修",
       "conditions": { "cateIds": ["101"], "excludeBrandIds": ["10530"] },
       "targetOptions": ["195244", "195233"],
+      "action": "disable"
+    },
+    {
+      "id": "iPhone-battery-disable",
+      "label": "苹果第三方电池禁用",
+      "conditions": {
+        "cateIds": ["101"],
+        "brandIds": ["10530"],
+        "hasTips": true
+      },
+      "targetOptions": ["203838", "204722"],
       "action": "disable"
     },
     {
