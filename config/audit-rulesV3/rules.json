@@ -141,11 +141,11 @@
   ],
   "exclusionGroups": [
     { "id": "screen-exclusive-full", "options": ["199345", "199413", "204723"], "component": "屏幕", "conditions": { "cateIds": ["101"], "qcModes": [4, 3] } },
-    { "id": "battery-exclusive-full", "options": ["204722", "195245"], "component": "电池", "conditions": { "cateIds": ["101"], "qcModes": [4, 3] } },
-    { "id": "magnet-exclusive-full", "options": ["195244", "195243"], "component": "后壳磁铁", "conditions": { "cateIds": ["101"], "qcModes": [4, 3] } },
     { "id": "screen-exclusive-phase2", "options": ["199411", "199410", "203837"], "component": "屏幕", "conditions": { "cateIds": ["101"], "qcModes": [1] } },
+    { "id": "battery-exclusive-full", "options": ["204722", "195245"], "component": "电池", "conditions": { "cateIds": ["101"], "qcModes": [4, 3] } },
     { "id": "battery-exclusive-phase2", "options": ["203838", "195235"], "component": "电池", "conditions": { "cateIds": ["101"], "qcModes": [1] } },
-    { "id": "magnet-exclusive-phase2", "options": ["195233", "195234"], "component": "后壳磁铁", "conditions": { "cateIds": ["101"], "qcModes": [1] } }
+    { "id": "backcover-exclusive-full", "options": ["195244", "195243", "204724"], "component": "后壳", "conditions": { "cateIds": ["101"], "qcModes": [4, 3] } },
+    { "id": "backcover-exclusive-phase2", "options": ["195233", "195234", "203836"], "component": "后壳", "conditions": { "cateIds": ["101"], "qcModes": [1] } }
   ],
   "exclusiveItems": [
     { "id": "phone-exclusive", "options": ["195249"], "conditions": { "cateIds": ["101"] } },
