@@ -27,7 +27,7 @@
             { "id": "203836", "text": "后壳-其他维修特征-Xray", "component": "后壳" },
             { "id": "203838", "text": "电池-第三方电池-Xray", "component": "电池" },
             { "id": "208634", "text": "检测结果拆机-Xray", "component": "检测结果", "defaultExclusive": true },
-            { "id": "208633", "text": "检测结果正常-Xray", "component": "检测结果", "defaultExclusive": true }
+            { "id": "195249", "text": "Xray检测结果正常", "component": "检测结果", "defaultExclusive": true }
           ]
         },
         {
