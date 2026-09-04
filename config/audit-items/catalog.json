@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "lastUpdated": "2025-08-01",
+  "version": 2,
+  "lastUpdated": "2025-09-04",
   "categories": [
     {
       "cateId": 101,
@@ -10,6 +10,7 @@
           "qcMode": 1,
           "qcModeName": "现象值二期",
           "options": [
+            { "id": "210752", "text": "成像异常-Xray", "component": "检测结果" },
             { "id": "195231", "text": "前摄像头-有焊接/锡焊异常-Xray", "component": "摄像头" },
             { "id": "195232", "text": "后摄像头-有焊接/锡焊异常-Xray", "component": "摄像头" },
             { "id": "195233", "text": "后壳-磁铁缺失-Xray", "component": "后壳" },
