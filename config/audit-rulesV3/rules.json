@@ -1,6 +1,6 @@
 {
-  "version": 7,
-  "lastUpdated": "2026-08-27",
+  "version": 8,
+  "lastUpdated": "2026-09-04",
   "rules": [
     {
       "id": "foreign-apple-mainboard-solder",
@@ -118,7 +118,7 @@
     },
     {
       "id": "teardown-pro-suggest",
-      "label": "拆机机型建议",
+      "label": "拆机机型建议（已解除排他，允许与成像异常共存）",
       "conditions": {
         "qcModes": [1],
         "cateIds": ["101"],
@@ -126,8 +126,7 @@
         "modelIds": ["95638", "129388", "381411", "95639", "129389", "381412", "1011385", "1011386"]
       },
       "targetOptions": ["208634"],
-      "action": "suggest",
-      "conflictDisables": "self"
+      "action": "suggest"
     },
     {
       "id": "teardown-others-disable",
@@ -149,7 +148,7 @@
     { "id": "magnet-exclusive-phase2", "options": ["195233", "195234"], "component": "后壳磁铁", "conditions": { "cateIds": ["101"], "qcModes": [1] } }
   ],
   "exclusiveItems": [
-    { "id": "phone-exclusive", "options": ["195249", "208633", "208634"], "conditions": { "cateIds": ["101"] } },
+    { "id": "phone-exclusive", "options": ["195249"], "conditions": { "cateIds": ["101"] } },
     { "id": "earphone-exclusive", "options": ["199868"], "conditions": { "cateIds": ["1100000186"] } },
     { "id": "stylus-exclusive", "options": ["203568", "20648"], "conditions": { "cateIds": ["1100000040"] } }
   ]
