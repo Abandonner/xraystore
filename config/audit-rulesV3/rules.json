@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "lastUpdated": "2026-09-06",
   "rules": [
     {
@@ -38,7 +38,7 @@
       "conditions": {
         "cateIds": ["101"],
         "brandIds": ["10532"],
-        "classifyConfIds": ["261", "263", "264", "295", "296", "297", "665", "692", "1575"]
+        "classifyConfIds": ["261", "263", "264", "295", "296", "297", "603", "665", "692", "1575"]
       },
       "targetOptions": ["204723", "203837"],
       "action": "suggest"
