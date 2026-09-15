@@ -1,6 +1,6 @@
 {
-  "version": 12,
-  "lastUpdated": "2026-09-06",
+  "version": 15,
+  "lastUpdated": "2026-09-15",
   "rules": [
     {
       "id": "foreign-apple-mainboard-solder",
@@ -55,12 +55,14 @@
     },
     {
       "id": "huawei-backcover-repair-disable",
-      "label": "禁用后壳类其他维修（仅 8 款华为机型放行）",
+      "label": "禁用后壳类其他维修（安卓机型仅 10 款华为机型放行）",
       "conditions": {
         "cateIds": ["101"],
+        "excludeBrandIds": ["10530"],
         "excludeModelIds": [
           "125986", "126364", "31940",
-          "240859", "240860", "241057", "46515", "89277"
+          "240859", "240860", "241057", "46515", "89277",
+          "127851", "127852"
         ]
       },
       "targetOptions": ["204724", "203836"],
@@ -148,6 +150,17 @@
         "modelIds": ["95638", "129388", "381411", "95639", "129389", "381412", "1011385", "1011386"]
       },
       "targetOptions": ["195249"],
+      "action": "disable"
+    },
+    {
+      "id": "apple-non-magnetic-backcover-disable",
+      "label": "禁用后壳类其他维修（苹果无磁吸机型）",
+      "conditions": {
+        "cateIds": ["101"],
+        "brandIds": ["10530"],
+        "modelIds": ["2190", "2187", "2188", "2189", "2193", "2191", "2192", "910689"]
+      },
+      "targetOptions": ["204724", "203836"],
       "action": "disable"
     }
   ],
