@@ -1,6 +1,6 @@
 {
-  "version": 15,
-  "lastUpdated": "2026-09-15",
+  "version": 17,
+  "lastUpdated": "2026-09-16",
   "rules": [
     {
       "id": "foreign-apple-mainboard-solder",
@@ -16,6 +16,16 @@
         "cateIds": ["101"],
         "brandIds": ["10532"],
         "classifyConfIds": ["40", "41", "77", "78", "150", "902"]
+      },
+      "targetOptions": ["204724", "203836"],
+      "action": "suggest"
+    },
+    {
+      "id": "foldable-backcover-repair-suggest",
+      "label": "折叠机中框其他维修提醒",
+      "conditions": {
+        "cateIds": ["101"],
+        "classifyConfIds": ["21092", "21096", "21099", "21168", "21243", "21247", "21250", "21319"]
       },
       "targetOptions": ["204724", "203836"],
       "action": "suggest"
