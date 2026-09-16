@@ -1,6 +1,6 @@
 {
-  "version": 15,
-  "lastUpdated": "2026-09-15",
+  "version": 16,
+  "lastUpdated": "2026-09-16",
   "rules": [
     {
       "id": "foreign-apple-mainboard-solder",
@@ -117,6 +117,20 @@
       },
       "targetOptions": ["203838", "204722"],
       "action": "disable"
+    },
+    {
+      "id": "test-backcover-suggest",
+      "label": "后壳不匹配测试",
+      "conditions": { "cateIds": ["101"], "modelIds": ["2189", "877660", "877662", "204996", "904794", "95606", "144349", "97681", "143531", "875258"] },
+      "targetOptions": ["195234", "195243"],
+      "action": "suggest"
+    },
+    {
+      "id": "test-battery-suggest",
+      "label": "第三方电池测试",
+      "conditions": { "cateIds": ["101"], "brandIds": ["10532"] },
+      "targetOptions": ["203838", "204722"],
+      "action": "suggest"
     },
     {
       "id": "teardown-pro-suggest",
