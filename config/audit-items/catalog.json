@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "lastUpdated": "2025-09-04",
+  "version": 4,
+  "lastUpdated": "2026-09-21",
   "categories": [
     {
       "cateId": 101,
@@ -26,8 +26,9 @@
             { "id": "203837", "text": "屏幕-其他维修特征-Xray", "component": "屏幕" },
             { "id": "203836", "text": "后壳-其他维修特征-Xray", "component": "后壳" },
             { "id": "203838", "text": "电池-第三方电池-Xray", "component": "电池" },
+            { "id": "203839", "text": "电池-品牌电池-Xray", "component": "电池" },
             { "id": "208634", "text": "检测结果拆机-Xray", "component": "检测结果", "defaultExclusive": true },
-            { "id": "195249", "text": "Xray检测结果正常", "component": "检测结果", "defaultExclusive": true }
+            { "id": "208633", "text": "检测结果正常-Xray", "component": "检测结果", "defaultExclusive": true }
           ]
         },
         {
@@ -49,6 +50,7 @@
             { "id": "204723", "text": "屏幕-其他维修特征-Xray", "component": "屏幕" },
             { "id": "204724", "text": "后壳-其他维修特征-Xray", "component": "后壳" },
             { "id": "204722", "text": "电池-第三方电池-Xray", "component": "电池" },
+            { "id": "204721", "text": "电池-品牌电池-Xray", "component": "电池" },
             { "id": "195249", "text": "Xray检测结果正常", "component": "检测结果", "defaultExclusive": true }
           ]
         },
@@ -71,6 +73,7 @@
             { "id": "204723", "text": "屏幕-其他维修特征-Xray", "component": "屏幕" },
             { "id": "204724", "text": "后壳-其他维修特征-Xray", "component": "后壳" },
             { "id": "204722", "text": "电池-第三方电池-Xray", "component": "电池" },
+            { "id": "204721", "text": "电池-品牌电池-Xray", "component": "电池" },
             { "id": "195249", "text": "Xray检测结果正常", "component": "检测结果", "defaultExclusive": true }
           ]
         }
