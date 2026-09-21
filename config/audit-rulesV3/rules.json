@@ -1,6 +1,6 @@
 {
-  "version": 17,
-  "lastUpdated": "2026-09-16",
+  "version": 18,
+  "lastUpdated": "2026-09-21",
   "rules": [
     {
       "id": "foreign-apple-mainboard-solder",
@@ -86,7 +86,7 @@
         "excludeBrandIds": ["10530"],
         "hasTips": true
       },
-      "targetOptions": ["195235", "195245", "203838", "204722"],
+      "targetOptions": ["195235", "195245", "203838", "204722", "203839", "204721"],
       "action": "disable"
     },
     {
@@ -159,7 +159,7 @@
         "brandIds": ["10530"],
         "modelIds": ["95638", "129388", "381411", "95639", "129389", "381412", "1011385", "1011386"]
       },
-      "targetOptions": ["195249"],
+      "targetOptions": ["195249", "208633"],
       "action": "disable"
     },
     {
@@ -177,13 +177,13 @@
   "exclusionGroups": [
     { "id": "screen-exclusive-full", "options": ["199345", "199413", "204723"], "component": "屏幕", "conditions": { "cateIds": ["101"], "qcModes": [4, 3] } },
     { "id": "screen-exclusive-phase2", "options": ["199411", "199410", "203837"], "component": "屏幕", "conditions": { "cateIds": ["101"], "qcModes": [1] } },
-    { "id": "battery-exclusive-full", "options": ["204722", "195245"], "component": "电池", "conditions": { "cateIds": ["101"], "qcModes": [4, 3] } },
-    { "id": "battery-exclusive-phase2", "options": ["203838", "195235"], "component": "电池", "conditions": { "cateIds": ["101"], "qcModes": [1] } },
+    { "id": "battery-exclusive-full", "options": ["204722", "195245", "204721"], "component": "电池", "conditions": { "cateIds": ["101"], "qcModes": [4, 3] } },
+    { "id": "battery-exclusive-phase2", "options": ["203838", "195235", "203839"], "component": "电池", "conditions": { "cateIds": ["101"], "qcModes": [1] } },
     { "id": "backcover-exclusive-full", "options": ["195244", "195243", "204724"], "component": "后壳", "conditions": { "cateIds": ["101"], "qcModes": [4, 3] } },
     { "id": "backcover-exclusive-phase2", "options": ["195233", "195234", "203836"], "component": "后壳", "conditions": { "cateIds": ["101"], "qcModes": [1] } }
   ],
   "exclusiveItems": [
-    { "id": "phone-exclusive", "options": ["195249", "208634", "210752"], "conditions": { "cateIds": ["101"] }, "intraGroupExceptions": [["208634", "210752"]] },
+    { "id": "phone-exclusive", "options": ["195249", "208634", "210752", "208633"], "conditions": { "cateIds": ["101"] }, "intraGroupExceptions": [["208634", "210752"]] },
     { "id": "earphone-exclusive", "options": ["199868"], "conditions": { "cateIds": ["1100000186"] } },
     { "id": "stylus-exclusive", "options": ["203568", "20648"], "conditions": { "cateIds": ["1100000040"] } }
   ]
