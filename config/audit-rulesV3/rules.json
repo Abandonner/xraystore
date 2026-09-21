@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "lastUpdated": "2026-09-21",
   "rules": [
     {
@@ -86,7 +86,7 @@
         "excludeBrandIds": ["10530"],
         "hasTips": true
       },
-      "targetOptions": ["195235", "195245", "203838", "204722", "203839", "204721"],
+      "targetOptions": ["195235", "195245", "203838", "204722"],
       "action": "disable"
     },
     {
