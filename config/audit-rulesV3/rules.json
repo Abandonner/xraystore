@@ -1,6 +1,6 @@
 {
-  "version": 19,
-  "lastUpdated": "2026-09-21",
+  "version": 20,
+  "lastUpdated": "2026-09-22",
   "rules": [
     {
       "id": "foreign-apple-mainboard-solder",
@@ -183,7 +183,7 @@
     { "id": "backcover-exclusive-phase2", "options": ["195233", "195234", "203836"], "component": "后壳", "conditions": { "cateIds": ["101"], "qcModes": [1] } }
   ],
   "exclusiveItems": [
-    { "id": "phone-exclusive", "options": ["195249", "208634", "210752", "208633"], "conditions": { "cateIds": ["101"] }, "intraGroupExceptions": [["208634", "210752"]] },
+    { "id": "phone-exclusive", "options": ["195249", "208634", "210752", "208633", "203839"], "conditions": { "cateIds": ["101"] }, "intraGroupExceptions": [["208634", "210752", "203839"]] },
     { "id": "earphone-exclusive", "options": ["199868"], "conditions": { "cateIds": ["1100000186"] } },
     { "id": "stylus-exclusive", "options": ["203568", "20648"], "conditions": { "cateIds": ["1100000040"] } }
   ]
