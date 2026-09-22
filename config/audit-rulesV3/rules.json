@@ -161,17 +161,6 @@
       },
       "targetOptions": ["195249", "208633"],
       "action": "disable"
-    },
-    {
-      "id": "apple-non-magnetic-backcover-disable",
-      "label": "禁用后壳类其他维修（苹果无磁吸机型）",
-      "conditions": {
-        "cateIds": ["101"],
-        "brandIds": ["10530"],
-        "modelIds": ["2190", "2187", "2188", "2189", "2193", "2191", "2192", "910689"]
-      },
-      "targetOptions": ["204724", "203836"],
-      "action": "disable"
     }
   ],
   "exclusionGroups": [
@@ -183,7 +172,7 @@
     { "id": "backcover-exclusive-phase2", "options": ["195233", "195234", "203836"], "component": "后壳", "conditions": { "cateIds": ["101"], "qcModes": [1] } }
   ],
   "exclusiveItems": [
-    { "id": "phone-exclusive", "options": ["195249", "208634", "210752", "208633", "203839"], "exemptIds": ["203839"], "conditions": { "cateIds": ["101"] }, "intraGroupExceptions": [["208634", "210752", "203839"]] },
+    { "id": "phone-exclusive", "options": ["195249"], "conditions": { "cateIds": ["101"] } },
     { "id": "earphone-exclusive", "options": ["199868"], "conditions": { "cateIds": ["1100000186"] } },
     { "id": "stylus-exclusive", "options": ["203568", "20648"], "conditions": { "cateIds": ["1100000040"] } }
   ]
