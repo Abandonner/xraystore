@@ -1,6 +1,6 @@
 {
-  "version": 22,
-  "lastUpdated": "2026-09-22",
+  "version": 23,
+  "lastUpdated": "2026-09-23",
   "rules": [
     {
       "id": "foreign-apple-mainboard-solder",
@@ -15,7 +15,7 @@
       "conditions": {
         "cateIds": ["101"],
         "brandIds": ["10532"],
-        "classifyConfIds": ["40", "41", "77", "78", "150", "902"]
+        "classifyConfIds": ["40", "41", "77", "78", "150", "802", "902"]
       },
       "targetOptions": ["204724", "203836"],
       "action": "suggest"
