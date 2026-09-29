@@ -1,6 +1,6 @@
 {
-  "version": 26,
-  "lastUpdated": "2026-09-23",
+  "version": 27,
+  "lastUpdated": "2026-09-29",
   "rules": [
     {
       "id": "foreign-apple-mainboard-solder",
@@ -51,17 +51,6 @@
         "classifyConfIds": ["261", "263", "264", "295", "296", "297", "603", "665", "692", "1575", "604"]
       },
       "targetOptions": ["204723", "203837"],
-      "action": "suggest"
-    },
-    {
-      "id": "apple-screen-bracket-suggest",
-      "label": "苹果-外屏屏幕支架更换建议",
-      "conditions": {
-        "cateIds": ["101"],
-        "brandIds": ["10530"],
-        "classifyConfIds": ["493", "494", "497"]
-      },
-      "targetOptions": ["199410", "199413"],
       "action": "suggest"
     },
     {
