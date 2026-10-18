@@ -1,6 +1,6 @@
 {
-  "version": 34,
-  "lastUpdated": "2026-10-14",
+  "version": 35,
+  "lastUpdated": "2026-10-18",
   "rules": [
     {
       "id": "foreign-apple-mainboard-solder",
@@ -260,7 +260,9 @@
         "195235",
         "195245",
         "203838",
-        "204722"
+        "204722",
+        "203839",
+        "204721"
       ],
       "action": "disable"
     },
