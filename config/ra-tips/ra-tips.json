@@ -1,5 +1,339 @@
 {
-  "version": 0,
+  "version": 2,
   "lastUpdated": "2026-10-24",
-  "tips": []
+  "tips": [
+    {
+      "id": "ra-tip-01",
+      "label": "中框深黑变透明（安卓）",
+      "origin": "bundled",
+      "text": "中框材质由深黑色变透明，判后壳样式不匹配",
+      "conditions": {
+        "modelIds": [
+          "877660",
+          "877662",
+          "204996",
+          "904794"
+        ]
+      },
+      "note": "原文：「a、中框材质深黑色变透明：安卓：华为 mate70pro+，mate70RS，三星 S24Ultra，S25Ultra」。同段附注（§6 第 3 条，非独立提示，并入本条）：「tips：审核规则可以禁用其余按照机型的后壳样式不匹配质检项」。"
+    },
+    {
+      "id": "ra-tip-02",
+      "label": "陶瓷后盖深黑变透明",
+      "origin": "bundled",
+      "text": "陶瓷后盖由深黑色变透明，判后壳样式不匹配",
+      "conditions": {
+        "modelIds": [
+          "31970",
+          "95606",
+          "144349",
+          "877662",
+          "97681",
+          "143531",
+          "875258"
+        ]
+      },
+      "note": "原文：「b、陶瓷后盖深黑色变透明：华为 mate40RS、50RS、60RS、70RS、三星 W23、W24、W25」。机型对应：Mate 40 RS 31970 / Mate 50 RS 95606 / Mate 60 RS 144349 / Mate 70 RS 877662 / 三星 W23 97681 / W24 143531 / W25 875258。"
+    },
+    {
+      "id": "ra-tip-03",
+      "label": "苹果 14 Pro / Pro Max（石家庄库）注意电池 ic",
+      "origin": "user",
+      "level": "danger",
+      "notify": true,
+      "text": "注意电池小板内置隐藏ic",
+      "conditions": {
+        "modelIds": [
+          "95638",
+          "95639",
+          "58386",
+          "58387"
+        ],
+        "allyIds": [
+          "14"
+        ],
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "10530"
+        ]
+      },
+      "note": "机型 = iPhone 14 Pro 95638 / iPhone 14 Pro Max 95639（回 机型配置.json 反查）；站点 = 石家庄库（id 14，**按 id 白名单匹配**，站点名只作展示——§6 红线「不得用文本匹配」）。⚠️ 本条**无词条条件**（用户明确）；也是内置里**唯一含站点维度**的一条。"
+    },
+    {
+      "id": "ra-tip-04",
+      "label": "vivo S17 主板多一颗螺丝",
+      "origin": "user",
+      "level": "warn",
+      "text": "主板区域多出一颗螺丝，属工艺差异，暂不判定",
+      "conditions": {
+        "modelIds": [
+          "112517"
+        ],
+        "brandIds": [
+          "10534"
+        ],
+        "cateIds": [
+          "101"
+        ]
+      },
+      "samples": [
+        {
+          "qcCode": "1219993886",
+          "taskId": "1376387"
+        }
+      ],
+      "note": "原文：「vivo S17 主板区域多出一颗螺丝暂不判定：案例：1219993886」。案例号只作负样本，不参与匹配。"
+    },
+    {
+      "id": "ra-tip-05",
+      "label": "华为 Pura 70 Pro 固定铁片",
+      "origin": "bundled",
+      "text": "注意主板中间区域可拆卸固定铁片是否缺失",
+      "conditions": {
+        "modelIds": [
+          "240859",
+          "240860"
+        ]
+      },
+      "note": "原文：华为 Pura 70 Pro / Pura 70 Pro+「需要注意主板中间区域可拆卸固定铁片是否缺失」。"
+    },
+    {
+      "id": "ra-tip-06",
+      "label": "华为 P50 Pro 后摄多螺丝",
+      "origin": "bundled",
+      "text": "后摄位置疑似多螺丝，属工艺差异，暂不判定",
+      "conditions": {
+        "modelIds": [
+          "57824",
+          "57825"
+        ]
+      },
+      "note": "原文：「所有版本的 P50 PRO 机型提示：后摄位置疑似多螺丝属于工艺差异，暂不判定」。机型 = 骁龙版 57824 + 麒麟版 57825。"
+    },
+    {
+      "id": "ra-tip-07",
+      "label": "小米 MIX FOLD 3 小铁片",
+      "origin": "user",
+      "level": "warn",
+      "text": "后摄下方固定小铁片存在工艺批次问题，X 光成像不明显，暂不判定",
+      "conditions": {
+        "modelIds": [
+          "124551"
+        ]
+      },
+      "samples": [
+        {
+          "qcCode": "1223783714",
+          "label": "",
+          "taskId": "1593342"
+        }
+      ],
+      "note": "原文「小米 MIX FOLD 3 提示：后摄下方固定小铁片存在工艺批次问题，导致铁片 x 光成像不明显，暂不判定」。"
+    },
+    {
+      "id": "ra-tip-08",
+      "label": "小米 MIX FLIP 螺丝疑似缺失",
+      "origin": "user",
+      "level": "warn",
+      "text": "上半张图电池右侧主板区域螺丝疑似缺失，属工艺差异，暂不判定",
+      "conditions": {
+        "modelIds": [
+          "259289"
+        ]
+      },
+      "samples": [
+        {
+          "qcCode": "1218335847",
+          "label": "",
+          "taskId": "1497556"
+        }
+      ],
+      "note": "原文：**仅 MIX FLIP**（259289）"
+    },
+    {
+      "id": "ra-tip-09",
+      "label": "所有耳机：同型号不同版本无法审核勾选",
+      "origin": "user",
+      "text": "同型号不同版本，按图片无法审核勾选",
+      "conditions": {
+        "cateIds": [
+          "1100000186"
+        ]
+      },
+      "note": "原文：「所有耳机提示：同型号不同版本也按照图片无法审核勾选」。本条**只按品类约束、无词条条件**，故所有耳机任务都会显示。"
+    },
+    {
+      "id": "ra-tip-11",
+      "label": "X / XR / Xs / XsMax / 11 全系听筒排线感光缺失",
+      "origin": "user",
+      "level": "warn",
+      "text": "听筒排线感光元器件缺失，属部分破损，判零件维修",
+      "conditions": {
+        "modelIds": [
+          "2187",
+          "2188",
+          "2189",
+          "2190",
+          "2191",
+          "2192",
+          "2193"
+        ],
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "10530"
+        ]
+      },
+      "samples": [
+        {
+          "qcCode": "1223752852",
+          "label": "",
+          "taskId": "1496964"
+        }
+      ],
+      "note": "原文：「x、xr、xs、xsmax、11 全系提示：听筒排线感光缺失属于部分破损，判零件维修」。op:'all' = 两条词条都要命中。"
+    },
+    {
+      "id": "ra-tip-12",
+      "label": "华为 nova 13 尾插小板螺丝",
+      "origin": "user",
+      "text": "尾插小板原螺丝孔无螺丝、多出螺丝，暂不判定",
+      "conditions": {
+        "modelIds": [
+          "868963"
+        ],
+        "brandIds": [
+          "10532"
+        ],
+        "cateIds": [
+          "101"
+        ]
+      },
+      "note": "原文：「华为 nova 13 提示：尾插小板原螺丝孔无螺丝，多出螺丝，暂不判定」。"
+    },
+    {
+      "id": "ra-tip-13",
+      "label": "华为无品牌电池提示 → 第三方电池",
+      "origin": "bundled",
+      "text": "电池小板多方形 IC、四个以上方形焊锡点、上下双排明显焊锡，判第三方电池",
+      "conditions": {
+        "brandIds": [
+          "10532"
+        ],
+        "hasTips": false
+      },
+      "note": "原文。品牌 = 华为 10532；hasTips:false = 无品牌电池提示（审图页 API 的 tips 为空）；词条 op:'any'（三条任一命中即可）。"
+    },
+    {
+      "id": "ra-tip-14",
+      "label": "iPhone 17 Pro / Pro Max 顶针变色",
+      "origin": "user",
+      "text": "固定顶针浅灰变深黑色或缺失，判后壳样式不符",
+      "conditions": {
+        "modelIds": [
+          "1011385",
+          "1011386"
+        ],
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "10530"
+        ]
+      },
+      "note": "原文：「iPhone 17 Pro / 17promax 提示：固定顶针浅灰变深黑色或缺失判定后壳样式不符」。"
+    },
+    {
+      "id": "ra-tip-15",
+      "label": "红米 / 小米无品牌电池提示 → 品牌电池",
+      "origin": "user",
+      "text": "电池小板温控线多 / 缺 / 移，属品牌电池",
+      "conditions": {
+        "brandIds": [
+          "18472",
+          "10531"
+        ],
+        "hasTips": false,
+        "cateIds": [
+          "101"
+        ]
+      },
+      "note": "原文。品牌 = 红米 18472（⚠️ **不是 10536**，那是魅族）+ 小米 10531；hasTips:false；词条 op:'all'。"
+    },
+    {
+      "id": "ra-tip-16",
+      "label": "苹果 15 尾插口差异",
+      "origin": "user",
+      "level": "warn",
+      "text": "尾插口细微差异变短、最上一层黑圈缺失，此类暂不判定",
+      "conditions": {
+        "modelIds": [
+          "129387"
+        ],
+        "brandIds": [
+          "10530"
+        ],
+        "cateIds": [
+          "101"
+        ]
+      },
+      "samples": [
+        {
+          "qcCode": "1214268160",
+          "label": "",
+          "taskId": "1232216"
+        }
+      ],
+      "note": "原文：「苹果 15 提示：尾插口细微差异变短，最上面一层黑圈缺失 此类暂不判定」。机型 = **仅** iPhone 15（129387）。"
+    },
+    {
+      "id": "ra-tip-17",
+      "label": "苹果 12 及以下接地弹片",
+      "origin": "user",
+      "text": "不判定排线上的接地弹片缺失破损",
+      "conditions": {
+        "brandIds": [
+          "10530"
+        ],
+        "modelIds": [
+          "2187",
+          "2188",
+          "2189",
+          "2190",
+          "2191",
+          "2192",
+          "2193"
+        ],
+        "cateIds": [
+          "101"
+        ]
+      },
+      "note": "原文：「苹果 12 以下的所有苹果机型提示（不包括 12 系）：不判定排线上的接地弹片缺失破损」。品牌 = 苹果 10530；机型沿用 §6 给的 X ~ 11 系 7 个 id。⚠️「12 以下但除 12 系」的机型全集是否只到 X 系，待真机核对（见 §9.1）。"
+    },
+    {
+      "id": "ra-tip-18",
+      "label": "苹果 12 mini 尾排元器件豁免",
+      "origin": "user",
+      "level": "warn",
+      "text": "尾排缺少 3 个以上元器件，豁免判定",
+      "conditions": {
+        "modelIds": [
+          "31468"
+        ],
+        "brandIds": [
+          "10530"
+        ],
+        "cateIds": [
+          "101"
+        ]
+      },
+      "note": "原文：「苹果 12 mini 提示：尾排缺少 3 个以上元器件豁免判定」。"
+    }
+  ],
+  "policy": {
+    "showOnAllyFailure": true
+  }
 }
