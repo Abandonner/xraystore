@@ -1,6 +1,6 @@
 {
-  "version": 35,
-  "lastUpdated": "2026-10-18",
+  "version": 36,
+  "lastUpdated": "2026-10-24",
   "rules": [
     {
       "id": "foreign-apple-mainboard-solder",
@@ -13,8 +13,11 @@
           "10530"
         ],
         "purchaseChannel": "foreign",
-        "groups": [
-          "admin"
+        "exceptGroups": [
+          "gE",
+          "gD",
+          "gB",
+          "gC"
         ]
       },
       "targetOptions": [
@@ -48,10 +51,9 @@
           "1085",
           "1086"
         ],
-        "groups": [
-          "admin",
-          "gB",
-          "gC"
+        "exceptGroups": [
+          "gE",
+          "gD"
         ]
       },
       "targetOptions": [
@@ -77,8 +79,11 @@
           "21250",
           "21319"
         ],
-        "groups": [
-          "admin"
+        "exceptGroups": [
+          "gE",
+          "gD",
+          "gC",
+          "gB"
         ]
       },
       "targetOptions": [
@@ -119,8 +124,11 @@
           "8228",
           "8230"
         ],
-        "groups": [
-          "admin"
+        "exceptGroups": [
+          "gE",
+          "gD",
+          "gC",
+          "gB"
         ]
       },
       "targetOptions": [
@@ -149,8 +157,11 @@
           "1575",
           "604"
         ],
-        "groups": [
-          "admin"
+        "exceptGroups": [
+          "gE",
+          "gD",
+          "gC",
+          "gB"
         ]
       },
       "targetOptions": [
@@ -171,8 +182,11 @@
           "1158",
           "1166"
         ],
-        "groups": [
-          "admin"
+        "exceptGroups": [
+          "gE",
+          "gD",
+          "gC",
+          "gB"
         ]
       },
       "targetOptions": [
@@ -195,10 +209,9 @@
           "31940",
           "144349"
         ],
-        "groups": [
-          "admin",
-          "gC",
-          "gB"
+        "exceptGroups": [
+          "gD",
+          "gE"
         ]
       },
       "targetOptions": [
@@ -229,10 +242,9 @@
           "127851",
           "127852"
         ],
-        "groups": [
-          "admin",
-          "gB",
-          "gC"
+        "exceptGroups": [
+          "gD",
+          "gE"
         ]
       },
       "targetOptions": [
@@ -252,8 +264,11 @@
           "10530"
         ],
         "hasTips": true,
-        "groups": [
-          "admin"
+        "exceptGroups": [
+          "gD",
+          "gE",
+          "gC",
+          "gB"
         ]
       },
       "targetOptions": [
@@ -345,9 +360,9 @@
           "10530"
         ],
         "hasTips": true,
-        "groups": [
-          "admin",
-          "gB"
+        "exceptGroups": [
+          "gD",
+          "gE"
         ]
       },
       "targetOptions": [
@@ -366,8 +381,11 @@
         "excludeBrandIds": [
           "10530"
         ],
-        "groups": [
-          "admin"
+        "exceptGroups": [
+          "gE",
+          "gD",
+          "gC",
+          "gB"
         ]
       },
       "targetOptions": [
