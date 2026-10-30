@@ -1,6 +1,6 @@
 {
-  "version": 36,
-  "lastUpdated": "2026-10-24",
+  "version": 37,
+  "lastUpdated": "2026-10-30",
   "rules": [
     {
       "id": "foreign-apple-mainboard-solder",
@@ -17,7 +17,8 @@
           "gE",
           "gD",
           "gB",
-          "gC"
+          "gC",
+          "gF"
         ]
       },
       "targetOptions": [
@@ -53,7 +54,8 @@
         ],
         "exceptGroups": [
           "gE",
-          "gD"
+          "gD",
+          "gF"
         ]
       },
       "targetOptions": [
@@ -83,7 +85,8 @@
           "gE",
           "gD",
           "gC",
-          "gB"
+          "gB",
+          "gF"
         ]
       },
       "targetOptions": [
@@ -128,7 +131,8 @@
           "gE",
           "gD",
           "gC",
-          "gB"
+          "gB",
+          "gF"
         ]
       },
       "targetOptions": [
@@ -161,7 +165,8 @@
           "gE",
           "gD",
           "gC",
-          "gB"
+          "gB",
+          "gF"
         ]
       },
       "targetOptions": [
@@ -186,7 +191,8 @@
           "gE",
           "gD",
           "gC",
-          "gB"
+          "gB",
+          "gF"
         ]
       },
       "targetOptions": [
@@ -211,7 +217,8 @@
         ],
         "exceptGroups": [
           "gD",
-          "gE"
+          "gE",
+          "gF"
         ]
       },
       "targetOptions": [
@@ -244,7 +251,8 @@
         ],
         "exceptGroups": [
           "gD",
-          "gE"
+          "gE",
+          "gF"
         ]
       },
       "targetOptions": [
@@ -268,7 +276,8 @@
           "gD",
           "gE",
           "gC",
-          "gB"
+          "gB",
+          "gF"
         ]
       },
       "targetOptions": [
@@ -362,7 +371,8 @@
         "hasTips": true,
         "exceptGroups": [
           "gD",
-          "gE"
+          "gE",
+          "gF"
         ]
       },
       "targetOptions": [
@@ -385,7 +395,8 @@
           "gE",
           "gD",
           "gC",
-          "gB"
+          "gB",
+          "gF"
         ]
       },
       "targetOptions": [
