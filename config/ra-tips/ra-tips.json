@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "lastUpdated": "2026-10-25",
+  "version": 4,
+  "lastUpdated": "2026-11-03",
   "tips": [
     {
       "id": "ra-tip-01",
@@ -16,141 +16,6 @@
         ]
       },
       "note": "原文：「a、中框材质深黑色变透明：安卓：华为 mate70pro+，mate70RS，三星 S24Ultra，S25Ultra」。同段附注（§6 第 3 条，非独立提示，并入本条）：「tips：审核规则可以禁用其余按照机型的后壳样式不匹配质检项」。"
-    },
-    {
-      "id": "ra-tip-02",
-      "label": "陶瓷后盖深黑变透明",
-      "origin": "bundled",
-      "text": "陶瓷后盖由深黑色变透明，判后壳样式不匹配",
-      "conditions": {
-        "modelIds": [
-          "31970",
-          "95606",
-          "144349",
-          "877662",
-          "97681",
-          "143531",
-          "875258"
-        ]
-      },
-      "note": "原文：「b、陶瓷后盖深黑色变透明：华为 mate40RS、50RS、60RS、70RS、三星 W23、W24、W25」。机型对应：Mate 40 RS 31970 / Mate 50 RS 95606 / Mate 60 RS 144349 / Mate 70 RS 877662 / 三星 W23 97681 / W24 143531 / W25 875258。"
-    },
-    {
-      "id": "ra-tip-03",
-      "label": "苹果 14 Pro / Pro Max（石家庄库）注意电池 ic",
-      "origin": "bundled",
-      "level": "danger",
-      "notify": true,
-      "text": "注意电池小板内置隐藏ic",
-      "conditions": {
-        "modelIds": [
-          "95638",
-          "95639",
-          "58386",
-          "58387"
-        ],
-        "allyIds": [
-          "14"
-        ],
-        "cateIds": [
-          "101"
-        ],
-        "brandIds": [
-          "10530"
-        ]
-      },
-      "note": "机型 = iPhone 14 Pro 95638 / iPhone 14 Pro Max 95639（回 机型配置.json 反查）；站点 = 石家庄库（id 14，**按 id 白名单匹配**，站点名只作展示——§6 红线「不得用文本匹配」）。⚠️ 本条**无词条条件**（用户明确）；也是内置里**唯一含站点维度**的一条。"
-    },
-    {
-      "id": "ra-tip-04",
-      "label": "vivo S17 主板多一颗螺丝",
-      "origin": "bundled",
-      "level": "warn",
-      "text": "主板区域多出一颗螺丝，属工艺差异，暂不判定",
-      "conditions": {
-        "modelIds": [
-          "112517"
-        ],
-        "brandIds": [
-          "10534"
-        ],
-        "cateIds": [
-          "101"
-        ]
-      },
-      "samples": [
-        {
-          "qcCode": "1219993886",
-          "taskId": "1376387"
-        }
-      ],
-      "note": "原文：「vivo S17 主板区域多出一颗螺丝暂不判定：案例：1219993886」。案例号只作负样本，不参与匹配。"
-    },
-    {
-      "id": "ra-tip-05",
-      "label": "华为 Pura 70 Pro 固定铁片",
-      "origin": "bundled",
-      "text": "注意主板中间区域可拆卸固定铁片是否缺失",
-      "conditions": {
-        "modelIds": [
-          "240859",
-          "240860"
-        ]
-      },
-      "note": "原文：华为 Pura 70 Pro / Pura 70 Pro+「需要注意主板中间区域可拆卸固定铁片是否缺失」。"
-    },
-    {
-      "id": "ra-tip-06",
-      "label": "华为 P50 Pro 后摄多螺丝",
-      "origin": "bundled",
-      "text": "后摄位置疑似多螺丝，属工艺差异，暂不判定",
-      "conditions": {
-        "modelIds": [
-          "57824",
-          "57825"
-        ]
-      },
-      "note": "原文：「所有版本的 P50 PRO 机型提示：后摄位置疑似多螺丝属于工艺差异，暂不判定」。机型 = 骁龙版 57824 + 麒麟版 57825。"
-    },
-    {
-      "id": "ra-tip-07",
-      "label": "小米 MIX FOLD 3 小铁片",
-      "origin": "bundled",
-      "level": "warn",
-      "text": "后摄下方固定小铁片存在工艺批次问题，X 光成像不明显，暂不判定",
-      "conditions": {
-        "modelIds": [
-          "124551"
-        ]
-      },
-      "samples": [
-        {
-          "qcCode": "1223783714",
-          "label": "",
-          "taskId": "1593342"
-        }
-      ],
-      "note": "原文「小米 MIX FOLD 3 提示：后摄下方固定小铁片存在工艺批次问题，导致铁片 x 光成像不明显，暂不判定」。"
-    },
-    {
-      "id": "ra-tip-08",
-      "label": "小米 MIX FLIP 螺丝疑似缺失",
-      "origin": "bundled",
-      "level": "warn",
-      "text": "上半张图电池右侧主板区域螺丝疑似缺失，属工艺差异，暂不判定",
-      "conditions": {
-        "modelIds": [
-          "259289"
-        ]
-      },
-      "samples": [
-        {
-          "qcCode": "1218335847",
-          "label": "",
-          "taskId": "1497556"
-        }
-      ],
-      "note": "原文：**仅 MIX FLIP**（259289）"
     },
     {
       "id": "ra-tip-09",
@@ -190,29 +55,10 @@
       "samples": [
         {
           "qcCode": "1223752852",
-          "label": "",
           "taskId": "1496964"
         }
       ],
       "note": "原文：「x、xr、xs、xsmax、11 全系提示：听筒排线感光缺失属于部分破损，判零件维修」。op:'all' = 两条词条都要命中。"
-    },
-    {
-      "id": "ra-tip-12",
-      "label": "华为 nova 13 尾插小板螺丝",
-      "origin": "bundled",
-      "text": "尾插小板原螺丝孔无螺丝、多出螺丝，暂不判定",
-      "conditions": {
-        "modelIds": [
-          "868963"
-        ],
-        "brandIds": [
-          "10532"
-        ],
-        "cateIds": [
-          "101"
-        ]
-      },
-      "note": "原文：「华为 nova 13 提示：尾插小板原螺丝孔无螺丝，多出螺丝，暂不判定」。"
     },
     {
       "id": "ra-tip-13",
@@ -283,7 +129,6 @@
       "samples": [
         {
           "qcCode": "1214268160",
-          "label": "",
           "taskId": "1232216"
         }
       ],
@@ -331,6 +176,507 @@
         ]
       },
       "note": "原文：「苹果 12 mini 提示：尾排缺少 3 个以上元器件豁免判定」。"
+    },
+    {
+      "id": "ra-tip-03",
+      "label": "苹果 14 Pro / Pro Max（石家庄库）注意电池 ic",
+      "origin": "bundled",
+      "level": "danger",
+      "edition": "full",
+      "text": "此为石家庄站  注意电池是否有内置IC",
+      "conditions": {
+        "modelIds": [
+          "95638",
+          "95639",
+          "58386",
+          "58387"
+        ],
+        "allyIds": [
+          "14"
+        ],
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "10530"
+        ]
+      },
+      "note": "机型 = iPhone 14 Pro 95638 / iPhone 14 Pro Max 95639（回 机型配置.json 反查）；站点 = 石家庄库（id 14，**按 id 白名单匹配**，站点名只作展示——§6 红线「不得用文本匹配」）。⚠️ 本条**无词条条件**（用户明确）；也是内置里**唯一含站点维度**的一条。"
+    },
+    {
+      "id": "ra-tip-04",
+      "label": "vivo S17 主板多一颗螺丝",
+      "origin": "bundled",
+      "level": "warn",
+      "text": "主板区域多出一颗螺丝，属工艺差异，暂不判定",
+      "conditions": {
+        "modelIds": [
+          "112517"
+        ],
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "10534"
+        ]
+      },
+      "samples": [
+        {
+          "qcCode": "1219993886",
+          "label": "案例 1219993886",
+          "modelId": "112517"
+        }
+      ],
+      "note": "原文：「vivo S17 主板区域多出一颗螺丝暂不判定：案例：1219993886」。案例号只作负样本，不参与匹配。"
+    },
+    {
+      "id": "ra-tip-06",
+      "label": "华为 P50 Pro 后摄多螺丝",
+      "origin": "bundled",
+      "level": "warn",
+      "text": "后摄位置疑似多螺丝，属工艺差异，暂不判定",
+      "conditions": {
+        "modelIds": [
+          "57824",
+          "57825"
+        ],
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "10532"
+        ]
+      },
+      "samples": [
+        {
+          "qcCode": "1230475233",
+          "label": "",
+          "taskId": "1744495"
+        }
+      ],
+      "note": "原文：「所有版本的 P50 PRO 机型提示：后摄位置疑似多螺丝属于工艺差异，暂不判定」。机型 = 骁龙版 57824 + 麒麟版 57825。"
+    },
+    {
+      "id": "ra-tip-08",
+      "label": "小米 MIX FLIP 螺丝疑似缺失",
+      "origin": "bundled",
+      "level": "warn",
+      "text": "上半张图电池右侧主板区域螺丝疑似缺失，属工艺差异，暂不判定",
+      "conditions": {
+        "modelIds": [
+          "259289"
+        ],
+        "brandIds": [
+          "10531"
+        ],
+        "cateIds": [
+          "101"
+        ]
+      },
+      "note": "原文：⚠️ 用户 2026-10-03 定案：**仅 MIX FLIP**（259289），**不含** MIX FLIP 2（971082）—— 该待确认项已关闭。"
+    },
+    {
+      "id": "ra-tip-12",
+      "label": "华为 nova 13 尾插小板螺丝",
+      "origin": "bundled",
+      "level": "warn",
+      "text": "尾插小板原螺丝孔无螺丝、多出螺丝，暂不判定",
+      "conditions": {
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "10532"
+        ],
+        "modelIds": [
+          "868963"
+        ]
+      },
+      "note": "原文：「华为 nova 13 提示：尾插小板原螺丝孔无螺丝，多出螺丝，暂不判定」。"
+    },
+    {
+      "id": "ra-tip-02",
+      "label": "陶瓷后盖深黑变透明",
+      "origin": "bundled",
+      "level": "warn",
+      "text": "陶瓷后盖由深黑色变透明，判后壳样式不匹配",
+      "conditions": {
+        "modelIds": [
+          "31970",
+          "95606",
+          "144349",
+          "877662",
+          "97681",
+          "143531",
+          "875258"
+        ]
+      },
+      "note": "原文：「b、陶瓷后盖深黑色变透明：华为 mate40RS、50RS、60RS、70RS、三星 W23、W24、W25」。机型对应：Mate 40 RS 31970 / Mate 50 RS 95606 / Mate 60 RS 144349 / Mate 70 RS 877662 / 三星 W23 97681 / W24 143531 / W25 875258。"
+    },
+    {
+      "id": "ra-tip-05",
+      "label": "华为 Pura 70 Pro 固定铁片",
+      "origin": "bundled",
+      "level": "warn",
+      "notify": true,
+      "text": "注意主板中间区域可拆卸固定铁片是否缺失",
+      "conditions": {
+        "modelIds": [
+          "240859",
+          "240860"
+        ],
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "10532"
+        ]
+      },
+      "samples": [
+        {
+          "qcCode": "1230633524",
+          "label": "",
+          "taskId": "1695948"
+        },
+        {
+          "qcCode": "1230907345",
+          "label": "",
+          "taskId": "1747778"
+        }
+      ],
+      "note": "原文：华为 Pura 70 Pro / Pura 70 Pro+「需要注意主板中间区域可拆卸固定铁片是否缺失」。"
+    },
+    {
+      "id": "ra-tip-07",
+      "label": "小米 MIX FOLD 3 小铁片",
+      "origin": "bundled",
+      "level": "warn",
+      "text": "后摄下方固定小铁片存在工艺批次问题，X 光成像不明显，暂不判定",
+      "conditions": {
+        "modelIds": [
+          "124551"
+        ]
+      },
+      "note": "原文「小米 MIX FOLD 3 提示：后摄下方固定小铁片存在工艺批次问题，导致铁片 x 光成像不明显，暂不判定」。"
+    },
+    {
+      "id": "ra-tip-10",
+      "label": "XR 后摄与中框连接处断开",
+      "origin": "bundled",
+      "text": "后摄组件下方与中框连接处断开，符合后壳不匹配判定",
+      "conditions": {
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "10530"
+        ],
+        "modelIds": [
+          "2189"
+        ]
+      },
+      "note": "原文：「xr 提示：后摄组件下方与中框连接处断开符合后壳不匹配判定」。"
+    },
+    {
+      "id": "u-muwc6gbz",
+      "origin": "bundled",
+      "level": "warn",
+      "notify": true,
+      "edition": "full",
+      "text": "注意长条形深黑色的压电陶瓷片部件是否缺失",
+      "conditions": {
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "11509"
+        ],
+        "modelIds": [
+          "258072",
+          "104697"
+        ]
+      }
+    },
+    {
+      "id": "u-muwkuikf",
+      "origin": "bundled",
+      "level": "warn",
+      "notify": true,
+      "edition": "full",
+      "text": "注意后壳上的闪光灯组件是否缺失",
+      "conditions": {
+        "brandIds": [
+          "10532"
+        ],
+        "modelIds": [
+          "203152"
+        ],
+        "cateIds": [
+          "101"
+        ]
+      }
+    },
+    {
+      "id": "u-mvd4cefp",
+      "origin": "bundled",
+      "level": "warn",
+      "notify": true,
+      "edition": "full",
+      "text": "请注意看无线充是否缺失",
+      "conditions": {
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "11509"
+        ],
+        "modelIds": [
+          "978922"
+        ]
+      },
+      "samples": [
+        {
+          "qcCode": "1231496788",
+          "label": "",
+          "taskId": "1800027"
+        }
+      ]
+    },
+    {
+      "id": "u-mvja2w6l",
+      "origin": "bundled",
+      "level": "warn",
+      "notify": true,
+      "edition": "full",
+      "text": "该机型注意尾插小板附近屏蔽罩缺失",
+      "conditions": {
+        "modelIds": [
+          "916183",
+          "877660",
+          "877659"
+        ],
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "10532"
+        ]
+      },
+      "samples": [
+        {
+          "qcCode": "1230011586",
+          "label": "",
+          "taskId": "1694565"
+        },
+        {
+          "qcCode": "1230245616",
+          "label": "",
+          "taskId": "1694730"
+        }
+      ]
+    },
+    {
+      "id": "u-mvm06ogz",
+      "origin": "bundled",
+      "level": "warn",
+      "notify": true,
+      "edition": "full",
+      "text": "注意电池小板左侧位置无线充排线是否破损",
+      "conditions": {
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "10532"
+        ],
+        "modelIds": [
+          "240858",
+          "256904"
+        ]
+      },
+      "samples": [
+        {
+          "qcCode": "1229478699",
+          "label": "",
+          "taskId": "1615976"
+        }
+      ]
+    },
+    {
+      "id": "u-mvol88km",
+      "origin": "bundled",
+      "level": "warn",
+      "edition": "full",
+      "text": "主摄下方屏蔽罩方形裁剪为工艺差异",
+      "conditions": {
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "10534"
+        ],
+        "modelIds": [
+          "112043"
+        ]
+      },
+      "samples": [
+        {
+          "qcCode": "1217495918",
+          "label": "",
+          "taskId": "1285565"
+        }
+      ]
+    },
+    {
+      "id": "u-mvrfm9yr",
+      "origin": "bundled",
+      "level": "warn",
+      "edition": "full",
+      "text": "前摄铁架缺失判小内配",
+      "conditions": {
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "10532"
+        ],
+        "modelIds": [
+          "127851",
+          "106666"
+        ]
+      }
+    },
+    {
+      "id": "u-mvurkq5a",
+      "origin": "bundled",
+      "level": "warn",
+      "edition": "full",
+      "text": "后摄下方有孔多螺丝不判",
+      "conditions": {
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "11509"
+        ],
+        "modelIds": [
+          "151337"
+        ]
+      },
+      "samples": [
+        {
+          "qcCode": "1232105083",
+          "label": "",
+          "taskId": "1759086"
+        }
+      ]
+    },
+    {
+      "id": "u-mvywf0zc",
+      "origin": "bundled",
+      "level": "warn",
+      "notify": true,
+      "edition": "full",
+      "text": "主板左侧中间位置方形屏蔽罩存在缺失，符合判定",
+      "conditions": {
+        "modelIds": [
+          "877659",
+          "916183",
+          "877660"
+        ]
+      },
+      "samples": [
+        {
+          "qcCode": "1231969749",
+          "label": "",
+          "taskId": "1756639"
+        }
+      ]
+    },
+    {
+      "id": "u-mvz64zv4",
+      "origin": "bundled",
+      "level": "warn",
+      "notify": true,
+      "edition": "full",
+      "text": "注意长焦排线座的小铁片盖板是否缺失",
+      "conditions": {
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "10532"
+        ],
+        "modelIds": [
+          "240858"
+        ]
+      },
+      "samples": [
+        {
+          "qcCode": "1230567628",
+          "label": "",
+          "taskId": "1743959"
+        }
+      ]
+    },
+    {
+      "id": "u-mvz6mcko",
+      "origin": "bundled",
+      "level": "warn",
+      "notify": true,
+      "edition": "full",
+      "text": "主板中间小横线成像变淡/缺失皆属于屏蔽罩缺失",
+      "conditions": {
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "10532"
+        ],
+        "modelIds": [
+          "256904"
+        ]
+      },
+      "samples": [
+        {
+          "qcCode": "1233176022",
+          "label": "",
+          "taskId": "1765807"
+        },
+        {
+          "qcCode": "1223041007",
+          "label": "",
+          "taskId": "1464961"
+        }
+      ]
+    },
+    {
+      "id": "u-mw01oxr5",
+      "origin": "bundled",
+      "level": "warn",
+      "notify": true,
+      "edition": "full",
+      "text": "注意主板左上角的小屏蔽罩缺失",
+      "conditions": {
+        "cateIds": [
+          "101"
+        ],
+        "brandIds": [
+          "10532"
+        ],
+        "modelIds": [
+          "240859",
+          "240860",
+          "241057"
+        ]
+      },
+      "samples": [
+        {
+          "qcCode": "1230196083",
+          "label": "",
+          "taskId": "1678923"
+        }
+      ]
     }
   ],
   "policy": {
