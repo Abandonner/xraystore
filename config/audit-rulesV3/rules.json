@@ -1,6 +1,6 @@
 {
-  "version": 37,
-  "lastUpdated": "2026-10-30",
+  "version": 38,
+  "lastUpdated": "2026-11-17",
   "rules": [
     {
       "id": "foreign-apple-mainboard-solder",
@@ -55,7 +55,9 @@
         "exceptGroups": [
           "gE",
           "gD",
-          "gF"
+          "gF",
+          "gC",
+          "gB"
         ]
       },
       "targetOptions": [
